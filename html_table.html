@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML Table</title>
+
+
+	<style>
+		table, tr, th, td
+		{
+			border: 2px solid red;
+			border-collapse: collapse;
+
+		}
+		th, td
+		{
+			Padding: 45px;
+		}
+		th
+		{
+			background-color: lightpink;
+			color:indianred;
+		}
+		tr:nth-child(odd)
+		{
+			background-color: paleturquoise;
+		}
+		tr:nth-child(even)
+		{
+			background-color: lightcoral;
+		}
+		td
+		{
+			text-align: center;
+		}
+		td:hover
+		{
+			background-color: lightyellow;
+		}
+
+	</style>
+</head>
+<body>
+
+	 <h1>Basic Table</h1>
+
+	 <table style="width: 100%">
+	 	<caption>Table 1: Basic HTML Table </caption>
+
+
+	 	<tr>
+	 		<th style="width: 20%">Name</th>
+	 		<th style="width: 15%">Student ID</th>
+	 		<th style="width: 15%">Picture</th>
+	 		<th style="width: 30%">Phone Num</th>
+	 	</tr>
+
+	 	<tr>
+	 		<td>Siti Noor Batrisyia Amiruddin</td>
+	 		<td>2022893946</td>
+	 		<td><img src="images/pic_1.JFIF" style=" height: 100px;"></td>
+	 		<td>0139504400</td>
+	 	</tr>
+	 	<tr>
+	 		<td>Siti Noor Batrisyia Amiruddin</td>
+	 		<td>2022893946</td>
+	 		<td><img src="images/pic_2.JFIF" style=" height: 100px;"></td>
+	 		<td>0139504400</td>
+	 	</tr>
+	 	<tr>
+	 		<td>Siti Noor Batrisyia Amiruddin</td>
+	 		<td>2022893946</td>
+	 		<td><img src="images/pic_11.JFIF" style=" height: 100px;"></td>
+	 		<td>0139504400</td>
+	 	</tr>
+	 </table>
+
+	 <h1>Colspan</h1>
+
+	 <table style="width: 100%;">
+
+	 	<tr>
+	 		<th>Name</th>
+	 		<th>Student ID</th>
+	 		<th colspan="3">Subject</th>
+	 	</tr>
+
+	 	<tr>
+	 		<td>Nur Aina</td>
+	 		<td>20228767565</td>
+	 		<td>IMD313</td>
+	 		<td>IMD317</td>
+	 		<td>IM318</td>
+	 	</tr>
+	 </table>
+
+	 <h1>Rowspan</h1>
+	 <table style="width:70%">
+
+	 	<tr>
+	 		<th>Name</th>
+	 		<td>Aina</td>
+	 	</tr>
+
+	 	<tr>
+	 		<th rowspan="2">Email</th>
+	 		<td>20228767565@student.uitm.edu.my</td>
+	 	</tr>
+
+	 	<tr>
+	 		<td>aina@gmail.com</td>
+
+	 	</tr>
+	 	
+
+	 </table>
+
+
+</body>
+</html>

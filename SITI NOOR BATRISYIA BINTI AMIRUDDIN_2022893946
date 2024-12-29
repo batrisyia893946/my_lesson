@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Basic HTML Structure</title>
+</head>
+<body>
+
+<h4>Topic: RABBIT</h4>
+<h1>This is heading 1</h1>
+<h2>This is heading 2</h2>
+<h3>This is heading 3</h3>
+<h4>This is heading 4</h4>
+<h5>This is heading 5</h5>
+<h6>This is heading 6</h6>
+
+<h4>TOPIC: PARAGHRAPH</h4>
+<p>Rabbits are small furry mammals with long ears, short tails, and strong hind legs. They belong to the Leporidae family and can be found in a variety of habitats, including meadows, forests, deserts, and wetlands</p>
+<p>Rabbits are herbivores, primarily eating grass, leafy weeds, and vegetables. They are known for their high reproductive rate, with a single female capable of having multiple litters each year. Social animals, rabbits often live in groups called warrens, which consist of a complex system of burrows</p>
+
+<h4>TOPIC: LINKS</h4>
+
+<a href = "https://www.cimbclicks.com.my/">CIMB Malaysia</a>
+
+<h4>TOPIC: IMAGE</h4>
+<img src="pic_3.JFIF" alt="this is image of girl" width="200px">
+<img src="images/pic_1.JFIF" width="200px" height="250px">
+
+<h4>TOPIC: BUTTON</h4>
+<button><a href="www.cimbclicks.com.my/">Click ME</a></button>
+
+<h4>LISTS</h4>
+
+<ul> 
+	<li>Nasi goreng</li>
+	<li>Nasi lemak ayam goreng</li>
+</ul>
+
+<ol>
+	<li>Nasi gorenf</li>
+	<li>Nasi lemak ayam goreng</li>
+</ol>
+
+
+</body>
+</html>

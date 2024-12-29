@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WELCOME TO MY WEBSITE1</title>
+    <style>
+        /* General Styles */
+        body {
+            margin: 0;
+            font-family: "Verdana";
+            background-color: #f8f8e7;
+            color: #333;
+            background: url(images/lovebg.jpg);
+        }
+
+        /* Header */
+        header {
+            background-color: darkred;
+            color: lightyellow;
+            text-align: center;
+            padding: 1.0rem;
+        }
+
+        .title {
+            font-family: "feeling passionate";
+            font-size: 2.5rem;
+            font-style: italic;
+            color: lightyellow;
+            text-shadow: #333;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin: 5;
+            padding: 10;
+        }
+
+        nav ul li {
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: #f8f8e7;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: none;
+        }
+
+        nav ul li a:hover {
+            color: #f28568;
+        }
+
+
+        /* Main Section */
+        .homepage {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 2rem auto;
+            padding: 4rem;
+            max-width: 60%;
+        }
+
+        .homepage .image-section {
+            flex: 1;
+            text-align: center;
+        }
+
+        /* Add animation to image */
+    .homepage .image-section img {
+        width: 200%;
+        max-width: 650px;
+        height: auto;
+        border: 2px solid #f28568;
+        border-radius: 30px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        animation: borderPulse 3s infinite ease-in-out;
+    }
+
+    /* Border animation keyframes */
+    @keyframes borderPulse {
+        0% {
+            border-color: deeppink;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        50% {
+            border-color: darkred;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+        100% {
+            border-color: #f28568;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    }
+
+        /* Add animation to content section */
+    .homepage .content-section {
+        flex: 1.5;
+        margin-left: 7rem;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 2rem;
+        border-radius: 40px;
+        font-size: 1.1rem;
+        line-height: 1.8;
+        position: relative;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border: 3px solid transparent;
+        animation: borderGlow 4s infinite ease-in-out;
+    }
+
+ /* Border glow animation keyframes */
+ @keyframes borderGlow {
+        0% {
+            border-color: orangered;
+        }
+        50% {
+            border-color: lightpink;
+            box-shadow: 0 8px 16px rgba(242, 133, 104, 0.5);
+        }
+        100% {
+            border-color: #2d6c6d;
+        }
+    }
+
+        .content-section h2 {
+            color: darkred;
+            font-family: 'Georgia pro';
+            font-style: italic;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .content-section p {
+            margin: 0;
+            text-align: center;
+        }
+
+        /* Hover Effect for Content Section */
+        .content-section:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            z-index: 10;
+        }
+
+        /* Music Button */
+        .music-container {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: darkred;
+            color: white;
+            font-size: 1rem;
+        }
+
+    
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1 class="title">──★ ˙🍓 ̟ !! WELCOME TO MY WEBSITE ──★ ˙🍓 ̟ !! </h1>
+        <nav>
+            <ul>
+                <li><a href="html_homepage.html">Home</a></li>
+                <li><a href="html_biodata.html">Biodata</a></li>
+                <li><a href="html_experience.html">Experience</a></li>
+                <li><a href="html_education.html">Education</a></li>
+                <li><a href="html_family.html">Family</a></li>
+                <li><a href="html_gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <section class="homepage">
+        <div class="image-section">
+            <img src="gambarhome.jpeg" alt="Background Image">
+        </div>
+        <div class="content-section">
+            <h2>Hi everyone! Batrisyia's here!</h2>
+            <p> 
+                Thank you for visiting my little diary! Hoping you have a beautiful journey while exploring my life here.<br>
+                Thanks for visiting!
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Batrisyia Website | Designed by Batrisyia</p>
+    </footer>
+
+    </script>
+</body>
+</html>
